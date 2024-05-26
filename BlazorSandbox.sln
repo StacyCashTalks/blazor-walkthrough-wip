@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34804.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSandboxBlazorApp", "BlazorSandboxBlazorApp\BlazorSandboxBlazorApp\BlazorSandboxBlazorApp.csproj", "{2EE390AF-2F79-4A57-B5BA-CA7BF6B771FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSandboxBlazorApp", "BlazorSandboxBlazorApp\BlazorSandboxBlazorApp\BlazorSandboxBlazorApp.csproj", "{2EE390AF-2F79-4A57-B5BA-CA7BF6B771FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSandboxBlazorApp.Client", "BlazorSandboxBlazorApp\BlazorSandboxBlazorApp.Client\BlazorSandboxBlazorApp.Client.csproj", "{0697BCF8-D8B3-4D83-B3EB-0EDF70F379E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSandboxBlazorApp.Client", "BlazorSandboxBlazorApp\BlazorSandboxBlazorApp.Client\BlazorSandboxBlazorApp.Client.csproj", "{0697BCF8-D8B3-4D83-B3EB-0EDF70F379E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorSandboxBlazorMAUI", "BlazorSandboxBlazorMAUI\BlazorSandboxBlazorMAUI.csproj", "{91B939E1-1B2F-49D5-8707-E0620C865223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorSandboxBlazorMAUI", "BlazorSandboxBlazorMAUI\BlazorSandboxBlazorMAUI.csproj", "{91B939E1-1B2F-49D5-8707-E0620C865223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorComponents", "BlazorComponents\BlazorComponents.csproj", "{D23D7E31-299C-42EC-BBE6-F00060D9C46A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorComponents", "BlazorComponents\BlazorComponents.csproj", "{D23D7E31-299C-42EC-BBE6-F00060D9C46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorApp", "TestBlazorApp\TestBlazorApp\TestBlazorApp.csproj", "{3C9BF7B8-018A-4B91-AE67-6F51AF80DB5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorApp.Client", "TestBlazorApp\TestBlazorApp.Client\TestBlazorApp.Client.csproj", "{3B720DEC-3BDC-45B7-9C1E-2F19E9E4CE7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{D23D7E31-299C-42EC-BBE6-F00060D9C46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23D7E31-299C-42EC-BBE6-F00060D9C46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23D7E31-299C-42EC-BBE6-F00060D9C46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9BF7B8-018A-4B91-AE67-6F51AF80DB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9BF7B8-018A-4B91-AE67-6F51AF80DB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9BF7B8-018A-4B91-AE67-6F51AF80DB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9BF7B8-018A-4B91-AE67-6F51AF80DB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B720DEC-3BDC-45B7-9C1E-2F19E9E4CE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B720DEC-3BDC-45B7-9C1E-2F19E9E4CE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B720DEC-3BDC-45B7-9C1E-2F19E9E4CE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B720DEC-3BDC-45B7-9C1E-2F19E9E4CE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
