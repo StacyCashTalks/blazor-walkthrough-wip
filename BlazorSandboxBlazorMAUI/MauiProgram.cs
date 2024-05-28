@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using BlazorComponents.Services;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.Logging;
 
 namespace BlazorSandboxBlazorMAUI
 {
@@ -15,6 +17,7 @@ namespace BlazorSandboxBlazorMAUI
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.TryAddSingleton<IService, ClientService>();
 
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();

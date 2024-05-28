@@ -1,0 +1,7 @@
+@page "/servicecall"
+@using BlazorComponents.Services
+@inject IService service
+
+<h1>This Page Calls Services</h1>
+
+<p>@service.GetSomeText("Same Component")</p>
